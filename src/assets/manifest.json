@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "applications": {
         "gecko": {
-            "id": "i@diygod.me"
+            "id": "alloy@bronya.moe"
         }
     },
     "name": "RSSHub Radar",
@@ -37,5 +37,6 @@
         "notifications",
         "alarms",
         "idle"
-    ]
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';"
 }
